@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("📌 JOIN OUR MAIN CHANNEL ", url="https://t.me/cv_updatez")
+                    InlineKeyboardButton("📌 JOIN OUR MAIN CHANNEL ", url="https://t.me/CB_PSARIPS2")
                 ]
             )
         for filter in filters: # iterating through each files
@@ -206,7 +206,7 @@ async def auto_filter(bot, update):
         try:
            await bot.send_photo(
                 chat_id=update.chat.id,
-                photo="https://telegra.ph/file/4317e694b1a2175dd9d1a.jpg",
+                photo="https://telegra.ph/file/8015c628cd51200071f3b.jpg",
                 caption=f"<b>Found {(len_results)} Results For Your Query: {query} \n\nതാങ്കൾക്ക് കിട്ടിയ ഈ ഫിൽറ്റർ മെസ്സേജ് കാലാവധി വെറും 1 ദിവസം മാത്രം ❕️</b>",
                 reply_markup=reply_markup,
                 parse_mode="html",
